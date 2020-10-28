@@ -6,16 +6,16 @@
 			"Person(${1:alias}, \"${2:label}\")",
 			"$0"
 		],
-		"description": "Add Person to C4 diagram"
+		"description": "Add Person"
 	},
 	"C4_Person_Descr": {
 		"scope": "plantuml",
-		"prefix": "Person with Description",
+		"prefix": "Person with description",
 		"body": [
 			"Person(${1:alias}, \"${2:label}\", \"${3:description}\")",
 			"$0"
 		],
-		"description": "Add Person with Description to C4 diagram"
+		"description": "Add Person with Description"
 	},
 	"C4_Person_Ext": {
 		"scope": "plantuml",
@@ -27,19 +27,19 @@
 			"Person_Ext(${1:alias}, \"${2:label}\")",
 			"$0"
 		],
-		"description": "Add External Person to C4 diagram"
+		"description": "Add External Person"
 	},
 	"C4_Person_Ext_Descr": {
 		"scope": "plantuml",
 		"prefix": [
-			"External Person with Description",
-			"Person (External) with Description"
+			"External Person with description",
+			"Person (External) with description"
 		],
 		"body": [
 			"Person_Ext(${1:alias}, \"${2:label}\", \"${3:description}\")",
 			"$0"
 		],
-		"description": "Add External Person with Description to C4 diagram"
+		"description": "Add External Person with Description"
 	},
 	"C4_Container": {
 		"scope": "plantuml",
@@ -48,58 +48,71 @@
 			"Container(${1:alias}, \"${2:label}\", \"${3:technology}\")",
 			"$0"
 		],
-		"description": "Add Container to C4 diagram"
+		"description": "Add Container"
 	},
 	"C4_Container_Descr": {
 		"scope": "plantuml",
-		"prefix": "Container with Description",
+		"prefix": "Container with description",
 		"body": [
 			"Container(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
 			"$0"
 		],
-		"description": "Add Container with Description to C4 diagram"
+		"description": "Add Container with Description"
 	},
 	"C4_ContainerDb": {
 		"scope": "plantuml",
-		"prefix": "Container DB",
+		"prefix": [
+			"Container DB",
+			"Container database",
+			"Database (Container)",
+			"DB (Container)"
+		],
 		"body": [
 			"ContainerDb(${1:alias}, \"${2:label}\", \"${3:technology}\")",
 			"$0"
 		],
-		"description": "Add Container DB to C4 diagram"
+		"description": "Add Container DB"
 	},
 	"C4_ContainerDb_Descr": {
 		"scope": "plantuml",
-		"prefix": "Container DB with Description",
+		"prefix": [
+			"Container DB with description",
+			"Container database with description",
+			"Database (Container) with description",
+			"DB (Container) with description"],
 		"body": [
 			"ContainerDb(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
 			"$0"
 		],
-		"description": "Add Container DB with Description to C4 diagram"
+		"description": "Add Container DB with description"
 	},
 	"C4_ContainerDb_Ext": {
 		"scope": "plantuml",
 		"prefix": [
 			"External Container DB",
-			"DB Container (External)"
+			"External Container database",
+			"DB Container (External)",
+			"Database Container (External)"
 		],
 		"body": [
 			"ContainerDb_Ext(${1:alias}, \"${2:label}\", \"${3:technology}\")",
 			"$0"
 		],
-		"description": "Add External DB Container to C4 diagram"
+		"description": "Add External DB Container"
 	},
 	"C4_ContainerDb_Ext_Descr": {
 		"scope": "plantuml",
 		"prefix": [
-			"External Container DB with Description",
-			"DB Container (External) with Description"
+			"External Container DB with description",
+			"External Container database with description",
+			"DB Container (External) with description",
+			"Database Container (External) with description"
 		],
 		"body": [
 			"ContainerDb_Ext(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
 			"$0"
 		],
-		"description": "Add External DB Container with Description to C4 diagram"
+		"description": "Add External DB Container with description"
 	},
 	"C4_Container_Ext": {
 		"scope": "plantuml",
@@ -111,19 +124,19 @@
 			"Container_Ext(${1:alias}, \"${2:label}\", \"${3:technology}\")",
 			"$0"
 		],
-		"description": "Add External Container to C4 diagram"
+		"description": "Add External Container"
 	},
 	"C4_Container_Ext_Descr": {
 		"scope": "plantuml",
 		"prefix": [
-			"External Container with Description",
-			"Container (External) with Description"
+			"External Container with description",
+			"Container (External) with description"
 		],
 		"body": [
 			"Container_Ext(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
 			"$0"
 		],
-		"description": "Add External Container with Description to C4 diagram"
+		"description": "Add External Container with description"
 	},
 	"C4_Container_Boundary": {
 		"scope": "plantuml",
@@ -136,7 +149,7 @@
 			"\t$0",
 			"}"
 		],
-		"description": "Add a Container Boundary to C4 diagram"
+		"description": "Add a Container Boundary"
 	},
 	"C4_Component": {
 		"scope": "plantuml",
@@ -145,16 +158,16 @@
 			"Component(${1:alias}, \"${2:label}\", \"${3:technology}\")",
 			"$0"
 		],
-		"description": "Add Component to C4 diagram"
+		"description": "Add Component"
 	},
 	"C4_Component_Descr": {
 		"scope": "plantuml",
-		"prefix": "Component with Description",
+		"prefix": "Component with description",
 		"body": [
 			"Component(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
 			"$0"
 		],
-		"description": "Add Component with Description to C4 diagram"
+		"description": "Add Component with description"
 	},
 	"C4_Component_Ext": {
 		"scope": "plantuml",
@@ -166,19 +179,19 @@
 			"Component_Ext(${1:alias}, \"${2:label}\", \"${3:technology}\")",
 			"$0"
 		],
-		"description": "Add External Component to C4 diagram"
+		"description": "Add External Component"
 	},
 	"C4_Component_Ext_Descr": {
 		"scope": "plantuml",
 		"prefix": [
-			"External Component with Description",
-			"Component (External) with Description"
+			"External Component with description",
+			"Component (External) with description"
 		],
 		"body": [
 			"Component_Ext(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
 			"$0"
 		],
-		"description": "Add External Component with Description to C4 diagram"
+		"description": "Add External Component with description"
 	},
 	"C4_System": {
 		"scope": "plantuml",
@@ -187,16 +200,16 @@
 			"System(${1:alias}, \"${2:label}\")",
 			"$0"
 		],
-		"description": "Add System to C4 diagram"
+		"description": "Add System"
 	},
 	"C4_System_Descr": {
 		"scope": "plantuml",
-		"prefix": "System with Description",
+		"prefix": "System with description",
 		"body": [
 			"System(${1:alias}, \"${2:label}\", \"${3:description}\")",
 			"$0"
 		],
-		"description": "Add System with Description to C4 diagram"
+		"description": "Add System with description"
 	},
 	"C4_System_Ext": {
 		"scope": "plantuml",
@@ -208,67 +221,75 @@
 			"System_Ext(${1:alias}, \"${2:label}\")",
 			"$0"
 		],
-		"description": "Add External System to C4 diagram"
+		"description": "Add External System"
 	},
 	"C4_System_Ext_Descr": {
 		"scope": "plantuml",
 		"prefix": [
-			"External System with Description",
-			"System (External) with Description"
+			"External System with description",
+			"System (External) with description"
 		],
 		"body": [
 			"System_Ext(${1:alias}, \"${2:label}\", \"${3:description}\")",
 			"$0"
 		],
-		"description": "Add External System with Description to C4 diagram"
+		"description": "Add External System with description"
 	},
 	"C4_SystemDb": {
 		"scope": "plantuml",
 		"prefix": [
 			"DB System",
-			"System DB"
+			"Database System",
+			"System DB",
+			"System database"
 		],
 		"body": [
 			"SystemDb(${1:alias}, \"${2:label}\")",
 			"$0"
 		],
-		"description": "Add DB System to C4 diagram"
+		"description": "Add DB System"
 	},
 	"C4_SystemDb_Descr": {
 		"scope": "plantuml",
 		"prefix": [
-			"DB System with Description",
-			"System DB with Description"
+			"DB System with description",
+			"Database System with description",
+			"System DB with description",
+			"System database with description"
 		],
 		"body": [
 			"SystemDb(${1:alias}, \"${2:label}\", \"${3:description}\")",
 			"$0"
 		],
-		"description": "Add DB System with Description to C4 diagram"
+		"description": "Add DB System with description"
 	},
 	"C4_SystemDb_Ext": {
 		"scope": "plantuml",
 		"prefix": [
 			"External DB System",
-			"System DB (External)"
+			"External database system",
+			"System DB (External)",
+			"Database System (External)"
 		],
 		"body": [
 			"SystemDb_Ext(${1:alias}, \"${2:label}\")",
 			"$0"
 		],
-		"description": "Add External DB System to C4 diagram"
+		"description": "Add External DB System"
 	},
 	"C4_SystemDb_Ext_Descr": {
 		"scope": "plantuml",
 		"prefix": [
-			"External DB System with Description",
-			"System DB (External) with Description"
+			"External DB System with description",
+			"External database system with description",
+			"System DB (External) with description",
+			"Database System (External) with description"
 		],
 		"body": [
 			"SystemDb_Ext(${1:alias}, \"${2:label}\", \"${3:description}\")",
 			"$0"
 		],
-		"description": "Add External DB System with Description to C4 diagram"
+		"description": "Add External DB System with description"
 	},
 	"C4_System_Boundary": {
 		"scope": "plantuml",
@@ -281,7 +302,7 @@
 			"\t$0",
 			"}"
 		],
-		"description": "Add a System Boundary to C4 diagram"
+		"description": "Add a System Boundary"
 	},
 	"C4_Enterprise_Boundary": {
 		"scope": "plantuml",
@@ -294,7 +315,7 @@
 			"\t$0",
 			"}"
 		],
-		"description": "Add an Enterprise Boundary to C4 diagram"
+		"description": "Add an Enterprise Boundary"
 	},
 	"C4_Relationship": {
 		"scope": "plantuml",
@@ -303,7 +324,7 @@
 			"Rel(${1:from_alias}, ${2:to_alias}, \"${3:label}\")",
 			"$0"
 		],
-		"description": "Add unidirectional Relationship to C4 diagram"
+		"description": "Add unidirectional Relationship"
 	},
 	"C4_Relationship_Async": {
 		"scope": "plantuml",
@@ -312,16 +333,16 @@
 			"Rel_Async(${1:from_alias}, ${2:to_alias}, \"${3:label}\")",
 			"$0"
 		],
-		"description": "Add unidirectional asynchronous Relationship to C4 diagram"
+		"description": "Add unidirectional asynchronous Relationship"
 	},
 	"C4_Relationship_Techn": {
 		"scope": "plantuml",
-		"prefix": "Relationship with Technology",
+		"prefix": "Relationship with technology",
 		"body": [
 			"Rel(${1:from_alias}, ${2:to_alias}, \"${3:label}\", \"${4:technology}\")",
 			"$0"
 		],
-		"description": "Add unidirectional Relationship with Technology to C4 diagram"
+		"description": "Add unidirectional Relationship with Technology"
 	},
 	"C4_Layout_Right": {
 		"scope": "plantuml",
